@@ -1,4 +1,6 @@
 #!/bin/bash
+
+
 echo "What is your age?"
 read AGE
 if [ ${AGE} -lt 18 ]; then
