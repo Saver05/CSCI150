@@ -11,7 +11,7 @@ while true
 do
 	echo "Enter your score 0-100 or enter q to quit"
 	read score
-	if [ $score == "q" ] 2>/dev/null
+	if [[ $score == [qQ] ]] 2>/dev/null
 	then
 	break
 	elif [ $score -lt 0 ] 2>/dev/null 
