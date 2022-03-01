@@ -1,5 +1,6 @@
 #!/bin/bash
-
+git pull .
+sleep 3
 git add .
 sleep 5
 git commit
